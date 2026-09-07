@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\bin\Debug\net10.0\PetShopCatalog.exe
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\bin\Debug\net10.0\PetShopCatalog.deps.json
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\bin\Debug\net10.0\PetShopCatalog.runtimeconfig.json
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\bin\Debug\net10.0\PetShopCatalog.dll
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\bin\Debug\net10.0\PetShopCatalog.pdb
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.sourcelink.json
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.dll
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\refint\PetShopCatalog.dll
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.pdb
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\PetShopCatalog.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\Pet-Shop-Catalog\PetShopCatalog\obj\Debug\net10.0\ref\PetShopCatalog.dll

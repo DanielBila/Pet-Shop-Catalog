@@ -1,4 +1,5 @@
 ﻿using PetShopCatalog.Entities;
+using PetShopCatalog.Entities.Enum;
 using PetShopCatalog.Service;
 using System.Globalization;
 
@@ -20,7 +21,12 @@ namespace PetShopCatalog
                         c.ListPrint(animals);
                         Console.ReadLine();
                         break;
-
+                     
+                    case 2:
+                        Console.WriteLine("what is the animal");
+                        string animalType = Console.ReadLine();
+                        c.AddList<animalType>(animals);
+                        break;
                      
                     
 

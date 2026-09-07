@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\petshopcatalog\\petshopcatalog\\service\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\pet-shop-catalog\\petshopcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\pet-shop-catalog\\petshopcatalog\\entities\\enum\\typesanimals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\entities\\enum\\typesanimals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\pet-shop-catalog\\petshopcatalog\\service\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\service\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\petshopcatalog\\petshopcatalog\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\petshopcatalog\\petshopcatalog\\entities\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\entities\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\petshopcatalog\\petshopcatalog\\entities\\ianimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\pet-shop-catalog\\petshopcatalog\\entities\\ianimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\entities\\ianimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\petshopcatalog\\petshopcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\pet-shop-catalog\\petshopcatalog\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|c:\\users\\usuario\\source\\repos\\pet-shop-catalog\\petshopcatalog\\entities\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF1016F7-3095-9F05-37B0-C90AAA728E33}|PetShopCatalog\\PetShopCatalog.csproj|solutionrelative:petshopcatalog\\entities\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TypesAnimals.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\Enum\\TypesAnimals.cs",
+              "RelativeDocumentMoniker": "PetShopCatalog\\Entities\\Enum\\TypesAnimals.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\Enum\\TypesAnimals.cs",
+              "RelativeToolTip": "PetShopCatalog\\Entities\\Enum\\TypesAnimals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:55:27.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Service\\Connection.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Service\\Connection.cs",
               "RelativeDocumentMoniker": "PetShopCatalog\\Service\\Connection.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Service\\Connection.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Service\\Connection.cs",
               "RelativeToolTip": "PetShopCatalog\\Service\\Connection.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T18:30:06.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Cat.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Entities\\Cat.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\Cat.cs",
               "RelativeDocumentMoniker": "PetShopCatalog\\Entities\\Cat.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Entities\\Cat.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\Cat.cs",
               "RelativeToolTip": "PetShopCatalog\\Entities\\Cat.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAxwA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,11 +80,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Dog.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Entities\\Dog.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\Dog.cs",
               "RelativeDocumentMoniker": "PetShopCatalog\\Entities\\Dog.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Entities\\Dog.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\Dog.cs",
               "RelativeToolTip": "PetShopCatalog\\Entities\\Dog.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAA0wBMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,25 +94,27 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IAnimal.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Entities\\IAnimal.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\IAnimal.cs",
               "RelativeDocumentMoniker": "PetShopCatalog\\Entities\\IAnimal.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Entities\\IAnimal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Entities\\IAnimal.cs",
               "RelativeToolTip": "PetShopCatalog\\Entities\\IAnimal.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T18:11:25.427Z"
+              "WhenOpened": "2026-09-04T18:11:25.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Program.cs",
               "RelativeDocumentMoniker": "PetShopCatalog\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\Program.cs",
               "RelativeToolTip": "PetShopCatalog\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T18:09:53.433Z"
+              "WhenOpened": "2026-09-04T18:09:53.433Z",
+              "EditorCaption": ""
             }
           ]
         }

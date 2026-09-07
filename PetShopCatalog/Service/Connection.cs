@@ -16,29 +16,17 @@ namespace PetShopCatalog.Service
             }
         }
 
+
         public void AddList<T>(List<T> values)
         {
-            Console.WriteLine("Entar the which animal: ");
-            string animal = Console.ReadLine();
-            Console.WriteLine($"Name {animal}");
+            Console.WriteLine("Name:");
             string name = Console.ReadLine();
             Console.WriteLine($"Enter the age in {name}");
             int age = int.Parse(Console.ReadLine());
             Console.WriteLine($"Enter the race in {name}");
             string race = Console.ReadLine();
-
-            values.Add(new animal(name, age, race));
-
-
-
-
-
-
+            values.Add((T)Activator.CreateInstance(typeof(T), name, age, race));
         }
-
-
-
-
 
         public override string ToString()
         {
@@ -49,7 +37,5 @@ namespace PetShopCatalog.Service
                 Exit - 9
                 """;
         }
-
-
     }
 }
