@@ -2,24 +2,10 @@
 
 namespace PetShopCatalog.Service
 {
-    /// <summary>
-    /// Fornece operações básicas de interação com o usuário via console
-    /// para listar, adicionar e remover animais em memória.
-    /// </summary>
-    /// <remarks>
-    /// Esta classe opera diretamente com Console.ReadLine/WriteLine e
-    /// manipula listas em memória. É adequada para aplicações de
-    /// demonstração/CLI; para cenários de produção considere injeção
-    /// de dependências e abstração das operações de I/O.
-    /// </remarks>
+   
     internal class Connection
     {
-        /// <summary>
-        /// Imprime os elementos de uma lista genérica no console.
-        /// </summary>
-        /// <typeparam name="T">Tipo dos elementos. Recomenda-se que T
-        /// possua uma implementação legível de <c>ToString()</c>.</typeparam>
-        /// <param name="list">Lista a ser exibida.</param>
+        
         public void ListPrint<T>(List<T> list)
         {
             if (list.Count <= 0)
@@ -27,20 +13,19 @@ namespace PetShopCatalog.Service
                 Console.WriteLine("The list is empty.");
                 return;
             }
-            // Cabeçalho simples para facilitar a leitura no console
+
+            // Cabeçalho simples para facilitar leitura no console
             Console.WriteLine("Type   Name  Age Sex Race");
             for (int i = 0; i < list.Count; i++)
             {
-                // Cada item é impresso; usa-se ToString() do elemento.
+                // Cada item é impresso; espera-se que o tipo T tenha
+                // uma implementação de ToString() amigável.
                 Console.WriteLine(list[i]);
             }
         }
 
-        /// <summary>
-        /// Lê os dados do usuário via console e adiciona um novo <see cref="IAnimal"/>
-        /// (implementado por <c>Dog</c> ou <c>Cat</c>) na lista fornecida.
-        /// </summary>
-        /// <param name="values">Lista de IAnimal onde o novo animal será inserido.</param>
+        // Cria e adiciona um novo IAnimal (Dog ou Cat) à lista fornecida.
+        // Interage com o usuário via Console para coletar os dados.
         public void AddAnimal(List<IAnimal> values)
         {
             Console.WriteLine("Enter the type of animal (dog/cat): ");
@@ -81,11 +66,8 @@ namespace PetShopCatalog.Service
             values.Add(newAnimal);
         }
 
-        /// <summary>
-        /// Remove um animal selecionado pelo usuário a partir da lista.
-        /// Exibe os itens com numeração 1-based para facilitar a escolha.
-        /// </summary>
-        /// <param name="values">Lista de IAnimal onde será realizada a remoção.</param>
+        // Remove um animal da lista por índice informado pelo usuário.
+        // Mostra a lista atual com índices legíveis (1-based) e valida a escolha.
         public void RemoveAnimalByIndex(List<IAnimal> values)
         {
             if (values.Count == 0)
@@ -98,12 +80,12 @@ namespace PetShopCatalog.Service
             Console.WriteLine("Current animals:");
             for (int i = 0; i < values.Count; i++)
             {
-                // Exibe cada animal com número (1-based) para facilitar a escolha
+                // Exibe cada animal com número (1-based) para facilitar remoção
                 Console.WriteLine($"{i + 1}. {values[i].Name} ({values[i].Race}, {values[i].Age} anos)");
             }
 
             Console.WriteLine("Enter the number of the animal to remove: ");
-            int index = int.Parse(Console.ReadLine()) - 1; // converte para índice 0-based
+            int index = int.Parse(Console.ReadLine()) - 1; // converte para 0-based
 
             if (index < 0 || index >= values.Count)
             {
@@ -111,14 +93,13 @@ namespace PetShopCatalog.Service
                 return;
             }
 
-            // Confirmação simples e remoção do item selecionado
+            // Confirmação simples e remoção do item selecionado.
             Console.WriteLine($"{values[index].Name} removed successfully!");
             values.RemoveAt(index);
         }
 
-        /// <summary>
-        /// Representação textual simples do menu principal para exibição no console.
-        /// </summary>
+        // Exibe o menu principal (representado por ToString) quando a instância
+        // for convertida para string. Mantido simples para uso no console.
         public override string ToString()
         {
             return """

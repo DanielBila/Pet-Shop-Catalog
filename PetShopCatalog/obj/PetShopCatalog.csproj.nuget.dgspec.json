@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\PetShopCatalog.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\PetShopCatalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\PetShopCatalog.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\PetShopCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\PetShopCatalog.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\PetShopCatalog.csproj",
         "projectName": "PetShopCatalog",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\PetShopCatalog.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\PetShopCatalog.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\PetShopCatalog\\PetShopCatalog\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Pet-Shop-Catalog\\PetShopCatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,30 @@
+[33mcommit a1947d420fc763b61f0802ccd4d6f35f73dea380[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 400f00c 84bbb38
+Author: Daniel <danielbila.dev@gmail.com>
+Date:   Fri Sep 25 15:31:49 2026 -0300
+
+    Complete project
+
+[33mcommit 400f00c9934c12dc605382b3e79dc6bd7dcfd3d0[m
+Author: Daniel <danielbila.dev@gmail.com>
+Date:   Fri Sep 25 15:14:00 2026 -0300
+
+    the program is ready, just a few thing are missing
+
+[33mcommit 84bbb38676ce2094ff3ddddcbc38fa9e2773d4e5[m
+Author: Daniel <danielbila.dev@gmail.com>
+Date:   Mon Sep 7 18:08:59 2026 -0300
+
+    Continuation project incomplete
+
+[33mcommit bc930df452a79daa195a83247fa87daa0ec166d6[m
+Author: Daniel <danielbila.dev@gmail.com>
+Date:   Sun Sep 6 16:15:04 2026 -0300
+
+    Project Incomplete
+
+[33mcommit 349e7f61094e79387cdd2934fec0fc1a990105f4[m
+Author: Daniel <danielbila.dev@gmail.com>
+Date:   Sun Sep 6 16:08:06 2026 -0300
+
+    first commit

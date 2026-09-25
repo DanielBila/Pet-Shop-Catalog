@@ -2,24 +2,8 @@
 
 namespace PetShopCatalog.Service
 {
-    /// <summary>
-    /// Fornece operações básicas de interação com o usuário via console
-    /// para listar, adicionar e remover animais em memória.
-    /// </summary>
-    /// <remarks>
-    /// Esta classe opera diretamente com Console.ReadLine/WriteLine e
-    /// manipula listas em memória. É adequada para aplicações de
-    /// demonstração/CLI; para cenários de produção considere injeção
-    /// de dependências e abstração das operações de I/O.
-    /// </remarks>
     internal class Connection
     {
-        /// <summary>
-        /// Imprime os elementos de uma lista genérica no console.
-        /// </summary>
-        /// <typeparam name="T">Tipo dos elementos. Recomenda-se que T
-        /// possua uma implementação legível de <c>ToString()</c>.</typeparam>
-        /// <param name="list">Lista a ser exibida.</param>
         public void ListPrint<T>(List<T> list)
         {
             if (list.Count <= 0)
@@ -27,40 +11,30 @@ namespace PetShopCatalog.Service
                 Console.WriteLine("The list is empty.");
                 return;
             }
-            // Cabeçalho simples para facilitar a leitura no console
+                
             Console.WriteLine("Type   Name  Age Sex Race");
             for (int i = 0; i < list.Count; i++)
             {
-                // Cada item é impresso; usa-se ToString() do elemento.
                 Console.WriteLine(list[i]);
             }
         }
-
-        /// <summary>
-        /// Lê os dados do usuário via console e adiciona um novo <see cref="IAnimal"/>
-        /// (implementado por <c>Dog</c> ou <c>Cat</c>) na lista fornecida.
-        /// </summary>
-        /// <param name="values">Lista de IAnimal onde o novo animal será inserido.</param>
         public void AddAnimal(List<IAnimal> values)
         {
             Console.WriteLine("Enter the type of animal (dog/cat): ");
-            // Normaliza a entrada e valida apenas 'dog' ou 'cat'
             string animalType = Console.ReadLine().ToLower() switch
             {
                 "dog" => "dog",
                 "cat" => "cat",
                 _ => "invalido"
             };
-
+            
             if (animalType == "invalido")
             {
-                // Entrada inválida: informa o usuário e aborta a operação.
                 Console.WriteLine("Invalid animal type. Please enter 'dog' or 'cat'.");
                 Console.ReadLine();
                 return;
             }
 
-            // Coleta dos demais campos do animal.
             Console.WriteLine("Enter the name: ");
             string name = Console.ReadLine();
             Console.WriteLine($"Enter the age of {name}: ");
@@ -70,22 +44,15 @@ namespace PetShopCatalog.Service
             Console.WriteLine($"Enter the race of {name}: ");
             string race = Console.ReadLine();
 
-            // Cria a instância correta com base no tipo informado.
             IAnimal newAnimal = animalType.ToLower() switch
             {
-                "dog" => new Dog(name, age, sex, race, DateTime.Now),
-                "cat" => new Cat(name, age, sex, race, DateTime.Now),
+                "dog" => new Dog(name, age, sex, race,DateTime.Now),
+                "cat" => new Cat(name, age, sex, race,DateTime.Now),
+        
             };
 
-            // Adiciona à lista passada por referência.
             values.Add(newAnimal);
         }
-
-        /// <summary>
-        /// Remove um animal selecionado pelo usuário a partir da lista.
-        /// Exibe os itens com numeração 1-based para facilitar a escolha.
-        /// </summary>
-        /// <param name="values">Lista de IAnimal onde será realizada a remoção.</param>
         public void RemoveAnimalByIndex(List<IAnimal> values)
         {
             if (values.Count == 0)
@@ -98,27 +65,20 @@ namespace PetShopCatalog.Service
             Console.WriteLine("Current animals:");
             for (int i = 0; i < values.Count; i++)
             {
-                // Exibe cada animal com número (1-based) para facilitar a escolha
                 Console.WriteLine($"{i + 1}. {values[i].Name} ({values[i].Race}, {values[i].Age} anos)");
             }
 
             Console.WriteLine("Enter the number of the animal to remove: ");
-            int index = int.Parse(Console.ReadLine()) - 1; // converte para índice 0-based
+            int index = int.Parse(Console.ReadLine()) - 1;
 
             if (index < 0 || index >= values.Count)
             {
                 Console.WriteLine("Invalid index.");
                 return;
             }
-
-            // Confirmação simples e remoção do item selecionado
             Console.WriteLine($"{values[index].Name} removed successfully!");
             values.RemoveAt(index);
         }
-
-        /// <summary>
-        /// Representação textual simples do menu principal para exibição no console.
-        /// </summary>
         public override string ToString()
         {
             return """
