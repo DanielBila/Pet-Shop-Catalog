@@ -80,7 +80,5 @@ namespace PetShopCatalog.Service
                 Exit - 9
                 """;
         }
-
-
     }
 }

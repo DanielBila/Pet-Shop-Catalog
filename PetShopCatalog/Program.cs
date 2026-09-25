@@ -1,4 +1,5 @@
 ﻿using PetShopCatalog.Entities;
+using PetShopCatalog.Entities.Enum;
 using PetShopCatalog.Service;
 using System.Globalization;
 
