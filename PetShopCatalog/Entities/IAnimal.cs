@@ -8,7 +8,8 @@ namespace PetShopCatalog.Entities
     {
         public string Name { get; set; }
         public int Age { get; set; }
-
+        public string Sex { get; set; }
         public string Race { get; set; }
+        public DateTime Date { get; set; }
     }
 }

@@ -12,11 +12,20 @@ namespace PetShopCatalog.Entities
         public string Sex { get; set; }
 
         public string Race { get; set; }
+        public DateTime Date { get; set; }
 
+        public Cat(string name, int age, string sex, string race,DateTime date)
+        {
+            Name = name;
+            Age = age;
+            Sex = sex;
+            Race = race;
+            Date = date;
+        }
 
         public override string ToString()
         {
-            return $"Cat - {Name}, {Sex} {Age} {Race}";
+            return $"Cat - {Name}, {Age}, {Sex}, {Race}";
         }
     
     
